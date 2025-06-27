@@ -87,7 +87,7 @@ Handles low-level read/write to EC RAM using mutex-protected access:
 Exposes the following attributes:
 
 * `/sys/class/hwmon/hwmonX/fan1_input` – current fan speed (RPM)
-* `/sys/class/hwmon/hwmonX/pwm1` – fan speed setting (0-200)
+* `/sys/class/hwmon/hwmonX/pwm1` – fan speed setting (0-255)
 * `/sys/class/hwmon/hwmonX/pwm1_enable` – fan mode:
 
   * 0 = Off (control off, speed 100%)

@@ -36,7 +36,7 @@
 #define FAN_MODE_MANUAL   0x6C
 #define FAN_PWM_REG_MAX   0xB8
 #define FAN_SPEED_MAX     7200
-#define HWMON_PWM_MAX     200
+#define HWMON_PWM_MAX     255
 
 #define LUNAR_NLEDS       2
 #define LUNAR_LED_L1_ADDR 0x04A0
